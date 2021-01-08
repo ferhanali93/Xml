@@ -1,0 +1,21 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT class (student)>
+<!ATTLIST class
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT student (firstName,lastName,age)>
+<!ATTLIST student
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT firstName (#PCDATA)>
+<!ATTLIST firstName
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT lastName (#PCDATA)>
+<!ATTLIST lastName
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT age (#PCDATA)>
+<!ATTLIST age
+  xmlns CDATA #FIXED ''>

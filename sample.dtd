@@ -1,0 +1,17 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT friendsList (friend+,bestFriend)>
+<!ATTLIST friendsList
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT friend (name)>
+<!ATTLIST friend
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT bestFriend (name)>
+<!ATTLIST bestFriend
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT name (#PCDATA)>
+<!ATTLIST name
+  xmlns CDATA #FIXED ''>

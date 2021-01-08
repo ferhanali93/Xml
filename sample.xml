@@ -1,0 +1,15 @@
+<friendsList>
+	<!--This is Root Tag-->
+	<friend>
+		<name>Monir</name>
+	</friend>
+	<friend>
+		<name>Huma</name>
+	</friend>
+	<friend>
+		<name>Sadika</name>
+	</friend>
+	<bestFriend>
+		<name>Usman</name>
+	</bestFriend>
+</friendsList>
